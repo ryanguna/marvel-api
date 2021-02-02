@@ -7,9 +7,12 @@ Developer: Ryan Gunawardana (ryanmgunawardana@gmail.com)
 
 
 ## Application Services Map
+![Application Service Map](https://user-images.githubusercontent.com/26731966/106604100-21b7e180-659a-11eb-9353-ed0142774619.png)
 
 
 ## Caching strategy used - ETAG
+![Cache solution 1](https://user-images.githubusercontent.com/26731966/106604127-2da3a380-659a-11eb-818e-a73bc579da95.png)
+
 
 
 ## Swagger / OpenAPI Documentation
