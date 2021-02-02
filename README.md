@@ -50,6 +50,7 @@ After these steps you can proceed to the running your app section.
 
 
 ## Running the app
+Before proceeding please be sure you are done with setting up your Initial Configurations
 
 #### Running with Docker
 
