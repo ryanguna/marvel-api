@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`service/CharacterController #index() Should resolve with an error if unhandled marvel api status 1`] = `undefined`;

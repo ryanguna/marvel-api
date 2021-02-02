@@ -1,0 +1,14 @@
+{
+  "watch": [
+    "src",
+    "lib",
+    "config",
+    "runner.ts",
+    ".env"
+  ],
+  "ext": "ts",
+  "ignore": [
+    "__tests__/**/*"
+  ],
+  "exec": "yarn start"
+}

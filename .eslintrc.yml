@@ -1,0 +1,51 @@
+env:
+  node: true
+  browser: false
+  commonjs: true
+  es6: true
+extends:
+  - airbnb-base
+  - plugin:@typescript-eslint/recommended
+  - plugin:jest/recommended
+  - prettier/@typescript-eslint
+  - plugin:prettier/recommended
+globals:
+  Atomics: readonly
+  SharedArrayBuffer: readonly
+parser: "@typescript-eslint/parser"
+parserOptions:
+  ecmaVersion: 2018
+  sourceType: module
+plugins:
+  - "@typescript-eslint"
+rules:
+  prettier/prettier: error
+  "@typescript-eslint/camelcase": [error, properties: never]
+  "@typescript-eslint/indent": 0
+  "@typescript-eslint/interface-name-prefix": [error, prefixWithI: always]
+  "@typescript-eslint/no-explicit-any": 0
+  "@typescript-eslint/no-var-requires": 0
+  "@typescript-eslint/no-unused-vars":
+    - error
+    - vars: all
+      args: none
+      ignoreRestSiblings: false
+  import/no-extraneous-dependencies: 0
+  import/order:
+    - error
+    - newlines-between: always
+      groups:
+        - - builtin
+          - external
+          - unknown
+        - - parent
+          - sibling
+        - index
+  jest/prefer-expect-assertions: 0
+  jest/prefer-strict-equal: 0
+  no-unused-vars: 0
+settings:
+  import/resolver:
+    typescript:
+      "@lib": "./lib"
+      "@config": "./config"

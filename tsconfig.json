@@ -1,0 +1,12 @@
+{
+  "extends": "./tsconfig.base.json",
+  "include": [
+    "src",
+    "lib",
+    "config",
+    "jestSetup.js",
+    "__tests__",
+    "__mocks__",
+    "runner.ts"
+  ]
+}

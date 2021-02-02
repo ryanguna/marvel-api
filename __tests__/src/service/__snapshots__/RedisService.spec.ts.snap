@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`service/RedisService #getCachedData should return a parsed json object if key is found 1`] = `"marvel:41401ba3d8a73d3873f329f26ba0c0db"`;
+
+exports[`service/RedisService #getCachedData should return a parsed json object if key is found 2`] = `"data"`;
+
+exports[`service/RedisService #getCachedData should return empty array when key is not found 1`] = `"marvel:41401ba3d8a73d3873f329f26ba0c0db"`;
+
+exports[`service/RedisService #getCachedData should return empty array when key is not found 2`] = `"data"`;
+
+exports[`service/RedisService #getEtag should return an etag string if key is found 1`] = `"marvel:41401ba3d8a73d3873f329f26ba0c0db"`;
+
+exports[`service/RedisService #getEtag should return an etag string if key is found 2`] = `"etag"`;
+
+exports[`service/RedisService #getEtag should return empty when key is not found 1`] = `"marvel:41401ba3d8a73d3873f329f26ba0c0db"`;
+
+exports[`service/RedisService #getEtag should return empty when key is not found 2`] = `"etag"`;
